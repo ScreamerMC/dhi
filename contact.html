@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Doug Home Improvements</title>
-        <link rel="stylesheet" href="styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Douglas Home Improvements</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
 <body>
     <header>
         <div class="container">
-            <h1>Doug Home Improvements</h1>
+            <h1>Douglas Home Improvements</h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -21,17 +21,21 @@
             </nav>
         </div>
     </header>
+
     <main>
-        <section id="contact">
+        <section id="contact" class="page-section">
             <div class="container">
                 <h2>Get in Touch</h2>
                 <form id="contact-form">
-                    <!-- Form fields (same as in index.html) -->
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Your Vision" required></textarea>
+                    <button type="submit">Send Inquiry</button>
                 </form>
             </div>
         </section>
 
-        <section id="location">
+        <section id="location" class="page-section">
             <div class="container">
                 <h2>Our Location</h2>
                 <!-- Add a map or address information -->
@@ -39,9 +43,16 @@
         </section>
     </main>
 
-    <!-- Footer (same as index.html) -->
-    <!-- Loading animation -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Douglas Home Improvements. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top">&uarr;</a>
+
     <div class="loader"></div>
-    <!-- Scripts -->
+
+    <script src="script.js"></script>
 </body>
 </html>
